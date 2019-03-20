@@ -1,3 +1,34 @@
+# Interview Question
+
+## Background
+
+We have created a protoytype/first draft of a page to manage users.
+
+Right now, we are using a static sample user. We want to get user data from the provided endpoint. But first, we want to review our approach.
+
+## Steps
+
+1. Code review the "User" component
+2. Using the provided endpoint, show all users in the list
+
+Example endpoint useage:
+
+```js
+fetch('https://jsonplaceholder.typicode.com/users')
+  .then(response => response.json())
+  .then(json => console.log(json))
+```
+
+3. Add username to each user.
+   It should formatted like this: First Last - (username)
+   Example: Leanne Graham - (Bret)
+
+## Additional Steps
+
+- Sort users alphabetically by username
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +97,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+```
+
+```
