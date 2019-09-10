@@ -1,4 +1,3 @@
-
 # Interview Question
 
 ## Background
