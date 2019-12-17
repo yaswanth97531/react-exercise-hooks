@@ -8,7 +8,7 @@ Right now, we are using a static sample user. We want to get user data from the 
 
 ## Stories
 
-1. Bugfix: Code review the "User" component
+1. Bugfix: Clicking on the the user's name, their city should display
 2. Feature: Using the provided endpoint, show all users in the list
 
 Example endpoint useage:
