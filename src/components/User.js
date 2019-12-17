@@ -1,7 +1,7 @@
 import React from 'react'
 
 class User extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       isOpen: false
@@ -9,17 +9,20 @@ class User extends React.Component {
     this.showCity = this.showCity.bind(this)
   }
 
-  showCity () {
-    this.state.isOpen = !this.state.isOpen // directly mutating the state
+  showCity() {
+    this.state.isOpen = !this.state.isOpen
   }
 
-  render () {
+  render() {
     return (
       <div>
-        <li title='Click to display city' onClick={this.showCity}>
+        <li title="Click to display city" onClick={this.showCity}>
           {this.props.user.name}
           {this.state.isOpen && (
-            <span style={{ fontWeight: 'bold' }}> - {this.props.user.address.city} </span>
+            <span style={{ fontWeight: 'bold' }}>
+              {' '}
+              - {this.props.user.address.city}{' '}
+            </span>
           )}
         </li>
       </div>
