@@ -6,10 +6,10 @@ We have created a protoytype/first draft of a page to manage users.
 
 Right now, we are using a static sample user. We want to get user data from the provided endpoint. But first, we want to review our approach.
 
-## Steps
+## Stories
 
-1. Code review the "User" component
-2. Using the provided endpoint, show all users in the list
+1. Bugfix: Code review the "User" component
+2. Feature: Using the provided endpoint, show all users in the list
 
 Example endpoint useage:
 
@@ -19,13 +19,13 @@ fetch('https://jsonplaceholder.typicode.com/users')
   .then(json => console.log(json))
 ```
 
-3. Add username to each user.
+3. Feature: Add username to each user.
    It should formatted like this: First Last - (username)
    Example: Leanne Graham - (Bret)
 
 ## Additional Steps
 
-- Sort users alphabetically by username
+- Feature: Sort users alphabetically by username
 
 ---
 
