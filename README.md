@@ -9,7 +9,9 @@ Right now, we are using a static sample user. We want to get user data from the 
 ## Stories
 
 1. Bugfix: Clicking on the the user's name, their city should display
-2. Feature: Using the provided endpoint, show all users in the list
+1. Test: Add unit tests for User
+1. Feature: Using the provided endpoint, show all users in the list
+1. Test: Add unit tests for App
 
 Example endpoint useage:
 
