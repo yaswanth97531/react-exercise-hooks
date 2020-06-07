@@ -1,4 +1,5 @@
 import React from 'react'
+import { CLICK_TO_DISPLAY_CITY_TEXT } from '../contants'
 
 class User extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class User extends React.Component {
     return (
       <li>
         {this.props.user.name}
-        <button onClick={this.showCity}>Click to display city</button>
+        <button onClick={this.showCity}>{CLICK_TO_DISPLAY_CITY_TEXT}</button>
         {this.state.isOpen && (
           <span style={{ fontWeight: 'bold' }}>
             {' '}
