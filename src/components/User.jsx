@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { CLICK_TO_DISPLAY_CITY_TEXT } from '../contants';
 
 // problem 1: fix (modify) code below to make it work
@@ -6,8 +6,7 @@ const User = ({ user }) => {
   let isOpen = false;
 
   const showCity = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    setIsOpen(!isOpen);
+    isOpen = true;
   };
 
   const {
